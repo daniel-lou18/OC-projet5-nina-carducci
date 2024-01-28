@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Inter";
   src: url("./fonts/Inter-Regular.woff2") format("woff2");
+  font-style: normal;
   font-display: swap;
 }
 
@@ -105,13 +106,10 @@ body {
   z-index: 0;
 }
 
-img {
-  aspect-ratio: attr(width number) / attr(height number);
-}
-
 .picture img {
   width: 100%;
   height: auto;
+  aspect-ratio: 1 / 1;
 }
 #about-me {
   flex: 2;
