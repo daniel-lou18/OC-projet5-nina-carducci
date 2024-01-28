@@ -1,40 +1,35 @@
 @font-face {
   font-family: "Inter";
-  src: url("./fonts/Inter-Regular.woff2") format("woff2");
+  src: url(./fonts/Inter-Regular.woff2) format("woff2");
   font-display: swap;
 }
-
 @font-face {
   font-family: "Spectral";
-  src: url("./fonts/spectral-extrabold.woff2") format("woff2");
+  src: url(./fonts/spectral-extrabold.woff2) format("woff2");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Spectral";
-  src: url("./fonts/spectral-extrabolditalic.woff2") format("woff2");
+  src: url(./fonts/spectral-extrabolditalic.woff2) format("woff2");
   font-weight: 800;
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Spectral";
-  src: url("./fonts/spectral-italic.woff2") format("woff2");
+  src: url(./fonts/spectral-italic.woff2) format("woff2");
   font-style: italic;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Spectral";
-  src: url("./fonts/spectral-lightitalic.woff2") format("woff2");
+  src: url(./fonts/spectral-lightitalic.woff2) format("woff2");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
-
 body {
   max-width: 1920px;
   margin: auto;
@@ -44,7 +39,7 @@ body {
   font-style: normal;
 }
 .top-header {
-  background-color: white;
+  background-color: #fff;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -54,32 +49,25 @@ body {
   padding-block: 30px;
   align-items: center;
 }
-
 .top-header .name {
   font-size: 26px;
 }
-
 .nav ul {
   display: flex;
   list-style-type: none;
   font-size: 14px;
   margin-bottom: 0;
 }
-
 .nav li {
   padding-inline: 10px;
 }
-
 .nav a {
   text-decoration: none;
   color: #000;
 }
-
 .social-link img {
   width: 20px;
-  height: 20px;
 }
-
 #about {
   display: flex;
   background-color: #f6d2b8;
@@ -87,7 +75,6 @@ body {
   padding-block: 100px;
   position: relative;
 }
-
 .picture.left::before {
   content: " ";
   background-color: #e5975f;
@@ -98,16 +85,13 @@ body {
   left: 0;
   z-index: -1;
 }
-
 .picture {
   flex: 1;
   margin: 0 20px;
   z-index: 0;
 }
-
 .picture img {
   width: 100%;
-  height: auto;
 }
 #about-me {
   flex: 2;
@@ -126,10 +110,6 @@ body {
 #about-me p {
   width: 80%;
   font-size: 14px;
-}
-
-#gallery {
-  /*	min-height: 100vh; */
 }
 .title {
   text-align: center;
@@ -168,13 +148,12 @@ body {
 .mg-next {
   width: 30px;
   height: 30px;
-  border-radius: 00%;
+  border-radius: 0%;
   justify-content: center;
   align-items: center;
   display: flex;
   font-size: 24px;
 }
-
 .quote {
   font-family: "Spectral";
   font-style: italic;
@@ -192,7 +171,6 @@ body {
   font-weight: 800;
   font-size: 22px;
 }
-
 #services {
   margin: auto;
   background-color: #a8d5d8;
@@ -208,15 +186,13 @@ body {
   left: 0;
   z-index: 0;
 }
-
 #services .container {
   justify-content: space-between;
   display: flex;
   padding: 2em 0;
 }
-
 .service {
-  background-color: white;
+  background-color: #fff;
   max-width: 390px;
   width: 30%;
   height: 337px;
@@ -226,7 +202,6 @@ body {
   justify-content: space-between;
   z-index: 1;
 }
-
 #contact {
   margin: auto;
   background-color: #d8d3a8;
@@ -234,7 +209,6 @@ body {
   padding-inline: 100px;
   padding-block: 100px;
 }
-
 #contact .container {
   display: flex;
 }
@@ -257,7 +231,6 @@ form {
   width: 70%;
   align-items: flex-start;
 }
-
 form input {
   width: 100%;
   background-color: transparent;
@@ -265,7 +238,6 @@ form input {
   height: 2.5em;
   margin-bottom: 20px;
 }
-
 form textarea {
   width: 100%;
   background-color: transparent;
@@ -279,7 +251,6 @@ input[type="submit"] {
   background-color: #beb45a;
   padding: 0.5em 1em;
 }
-
 @media all and (max-width: 1180px) {
   .picture {
     flex: 2;
@@ -297,7 +268,6 @@ input[type="submit"] {
     width: 100%;
   }
 }
-
 @media all and (max-width: 1000px) {
   #about {
     flex-direction: column;
@@ -330,7 +300,6 @@ input[type="submit"] {
   .service__description {
     margin-bottom: 1em;
   }
-
   #services .container::before {
     width: 30%;
     height: 100%;
@@ -339,7 +308,6 @@ input[type="submit"] {
     left: auto;
     z-index: 0;
   }
-
   #contact .container {
     flex-direction: column;
   }
@@ -355,7 +323,6 @@ input[type="submit"] {
     z-index: -1;
   }
 }
-
 @media all and (max-width: 650px) {
   .top-header {
     flex-direction: column;
