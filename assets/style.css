@@ -105,6 +105,10 @@ body {
   z-index: 0;
 }
 
+img {
+  aspect-ratio: attr(width) / attr(height);
+}
+
 .picture img {
   width: 100%;
   height: auto;
