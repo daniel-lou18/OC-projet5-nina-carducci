@@ -106,7 +106,7 @@ body {
 }
 
 img {
-  aspect-ratio: attr(width) / attr(height);
+  aspect-ratio: attr(width number) / attr(height number);
 }
 
 .picture img {
