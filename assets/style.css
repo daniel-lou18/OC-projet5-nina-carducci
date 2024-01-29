@@ -84,6 +84,7 @@ body {
 #header picture > * {
   width: 100%;
   height: auto;
+  display: inline-block;
 }
 
 #about {
