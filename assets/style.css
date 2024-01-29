@@ -81,9 +81,9 @@ body {
   height: 20px;
 }
 
-#header img.w-100 {
+/* #header img.w-100 {
   height: auto;
-}
+} */
 
 #about {
   display: flex;
