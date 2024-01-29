@@ -81,6 +81,10 @@ body {
   height: 20px;
 }
 
+#header img.w-100 {
+  height: auto;
+}
+
 #about {
   display: flex;
   background-color: #f6d2b8;
@@ -110,9 +114,11 @@ body {
   width: 100%;
   height: auto;
 }
+
 #about-me {
   flex: 2;
 }
+
 .about-me__title {
   margin-top: 1em;
   margin-bottom: 60px;
