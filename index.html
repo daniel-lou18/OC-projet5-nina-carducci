@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link
       rel="stylesheet"
@@ -9,13 +10,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-      rel="stylesheet"
-    /> -->
-    <meta charset="UTF-8" />
+    <script src="./assets/scripts.js" defer></script>
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -24,7 +19,6 @@
       defer
     ></script>
     <script src="./assets/maugallery.js" defer></script>
-    <script src="./assets/scripts.js" defer></script>
   </head>
   <body>
     <div class="top-header">
@@ -76,7 +70,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <picture>
+            <!-- <picture>
               <source
                 media="(max-width: 767px)"
                 srcset="
@@ -94,16 +88,22 @@
                 srcset="
                   ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1024.webp
                 "
-              />
-              <img
-                src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1920.webp"
-                class="d-block w-100"
-                alt="..."
-              />
-            </picture>
+              /> -->
+            <img
+              src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1024.webp"
+              srcset="
+                ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-480.webp   480w,
+                ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-768.webp   768w,
+                ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1024.webp 1024w,
+                ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1920.webp 1920w
+              "
+              class="d-block w-100"
+              alt="..."
+            />
+            <!-- </picture> -->
           </div>
           <div class="carousel-item">
-            <picture>
+            <!-- <picture>
               <source
                 media="(max-width: 767px)"
                 srcset="
@@ -121,17 +121,23 @@
                 srcset="
                   ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1024.webp
                 "
-              />
-              <img
-                src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1920.webp"
-                class="d-block w-100"
-                alt="..."
-                loading="lazy"
-              />
-            </picture>
+              /> -->
+            <img
+              src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1024.webp"
+              srcset="
+                ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-480.webp   480w,
+                ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-768.webp   768w,
+                ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1024.webp 1024w,
+                ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1920.webp 1920w
+              "
+              class="d-block w-100"
+              alt="..."
+              loading="lazy"
+            />
+            <!-- </picture> -->
           </div>
           <div class="carousel-item">
-            <picture>
+            <!-- <picture>
               <source
                 media="(max-width: 767px)"
                 srcset="
@@ -149,14 +155,20 @@
                 srcset="
                   ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1024.webp
                 "
-              />
-              <img
-                src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1920.webp"
-                class="d-block w-100"
-                alt="..."
-                loading="lazy"
-              />
-            </picture>
+              /> -->
+            <img
+              src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1024.webp"
+              srcset="
+                ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-480.webp   480w,
+                ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-768.webp   768w,
+                ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1024.webp 1024w,
+                ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1920.webp 1920w
+              "
+              class="d-block w-100"
+              alt="..."
+              loading="lazy"
+            />
+            <!-- </picture> -->
           </div>
         </div>
         <button
