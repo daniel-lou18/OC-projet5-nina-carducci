@@ -81,6 +81,11 @@ body {
   height: 20px;
 }
 
+#header picture > * {
+  width: 100%;
+  height: auto;
+}
+
 #about {
   display: flex;
   background-color: #f6d2b8;
