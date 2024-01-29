@@ -10,7 +10,6 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <script src="./assets/scripts.js" defer></script>
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -19,6 +18,7 @@
       defer
     ></script>
     <script src="./assets/maugallery.js" defer></script>
+    <script src="./assets/scripts.js" defer></script>
   </head>
   <body>
     <div class="top-header">
@@ -133,7 +133,13 @@
     </div>
     <div id="about">
       <div class="picture left">
-        <img src="./assets/images/nina.webp" />
+        <img
+          src="./assets/images/nina-425.webp"
+          srcset="
+            ./assets/images/nina-360.webp 360w,
+            ./assets/images/nina-425.webp 425w
+          "
+        />
       </div>
       <div id="about-me">
         <h3 class="about-me__title">A propos de moi</h3>
