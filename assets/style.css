@@ -195,6 +195,7 @@ body {
   font-family: Spectral;
   font-style: italic;
   font-weight: 300;
+  line-height: 1.2;
 }
 .quote__author {
   font-family: Spectral;
@@ -287,6 +288,12 @@ form textarea {
 input[type="submit"] {
   background-color: #beb45a;
   padding: 0.5em 1em;
+}
+
+@media all and (min-width: 1200px) {
+  .quote__text {
+    font-size: 2.5rem;
+  }
 }
 
 @media all and (max-width: 1180px) {
