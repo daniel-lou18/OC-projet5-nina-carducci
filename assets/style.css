@@ -125,6 +125,7 @@ body {
   font-size: 30px;
 }
 .about-me__introduction {
+  font-size: 1rem;
   font-family: "Spectral";
   font-weight: 800;
   font-style: italic;
@@ -190,6 +191,7 @@ body {
   padding-block: 3em;
 }
 .quote__text {
+  font-size: calc(1.375rem + 1.5vw);
   font-family: Spectral;
   font-style: italic;
   font-weight: 300;
@@ -299,7 +301,7 @@ input[type="submit"] {
     margin-top: 0;
     margin-bottom: 1em;
   }
-  #about-me h6,
+  .about-me__introduction,
   #about-me p {
     width: 100%;
   }
