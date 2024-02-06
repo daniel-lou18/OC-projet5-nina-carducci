@@ -147,6 +147,7 @@ body {
   justify-content: center;
 }
 .nav-pills .nav-link.active,
+.nav-pills .nav-link.active-tag,
 .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #5B5629;
@@ -155,10 +156,16 @@ body {
 .nav-pills .nav-link {
   color: #000;
 }
+.nav-pills .nav-link:hover {
+  cursor: pointer;
+}
 .item-column {
   position: relative;
   margin-bottom: 0 !important;
   padding: 0;
+}
+.item-column:hover {
+  cursor: pointer;
 }
 .item-column::after {
   content: "";
