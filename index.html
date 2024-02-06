@@ -1,8 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr-FR">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
+    <meta name="robots" content="index">
+    <meta property="og:title" content="Nina Carducci - Photographe à Bordeaux">
+    <meta property="og:description" content="Nina Carducci, photographe professionnelle experte dans la photographie d'entreprise, de mariage, de concerts et de portraits. Mon savoir-faire s'exprime à travers des albums photos uniques et des shootings réalisés à des prix raisonnables">
+    <meta property="og:image" content="https://daniel-lou18.github.io/OC-projet5-nina-carducci/assets/images/nina-1200.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://daniel-lou18.github.io/OC-projet5-nina-carducci/">
+    <meta property="og:site_name" content="Nina Carducci">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nina Carducci - Photographe à Bordeaux">
+    <meta name="twitter:description" content="Nina Carducci, photographe professionnelle experte dans la photographie d'entreprise, de mariage, de concerts et de portraits. Mon savoir-faire s'exprime à travers des albums photos uniques et des shootings réalisés à des prix raisonnables">
+    <meta name="twitter:image" content="https://daniel-lou18.github.io/OC-projet5-nina-carducci/assets/images/nina-425.webp">
+    <meta name="twitter:url" content="https://daniel-lou18.github.io/OC-projet5-nina-carducci/">
     <link
       rel="preload"
       as="image"
@@ -12,13 +24,14 @@
       ./assets/images/slider/ryoji-iwata-homme-entreprise-1024.webp 1024w,
       ./assets/images/slider/ryoji-iwata-homme-entreprise-1920.webp 1920w"
     />
+    <link rel="canonical" href="https://daniel-lou18.github.io/OC-projet5-nina-carducci/">
+    <link rel="stylesheet" href="./dist/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Nina Carducci - Photographe à Bordeaux | Page d’accueil</title>
     <meta
       name="description"
-      content="Découvrez Nina Carducci, photographe professionnelle experte dans la photographie d'entreprise, de mariage, de concerts et de portraits. Mon savoir-faire s'exprime à travers des albums photos uniques et des shootings réalisés à des prix raisonnables"
+      content="Nina Carducci, photographe professionnelle experte dans la photographie d'entreprise, de mariage, de concerts et de portraits. Mon savoir-faire s'exprime à travers des albums photos uniques et des shootings réalisés à des prix raisonnables"
     />
-    <link rel="stylesheet" href="./dist/bootstrap.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
@@ -36,6 +49,7 @@
         },
         "telephone": "05 56 67 78 89",
         "openingHours": "Mo-Fr 10:00-19:00",
+        "priceRange": "€€",
         "paymentAccepted": ["Cash", "Credit Card"],
         "geo": {
           "@type": "GeoCoordinates",
@@ -350,11 +364,11 @@
             N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures
           </p>
           <form action="" method="post">
-            <label>Nom</label>
+            <label for="nom">Nom</label>
             <input type="text" name="nom" id="nom" />
-            <label>Email</label>
+            <label for="email">Email</label>
             <input type="email" name="email" id="email" />
-            <label>Message</label>
+            <label for="message">Message</label>
             <textarea
               name="message"
               id="message"
